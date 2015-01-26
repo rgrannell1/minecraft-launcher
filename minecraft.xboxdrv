@@ -1,0 +1,48 @@
+
+[xboxdrv]
+ui-clear=true
+trigger-as-button = true
+silent = true
+
+[ui-axismap]
+x1=KEY_A:KEY_D
+y1=KEY_W:KEY_S
+x2^dead:4000 = REL_X:750:-1
+y2^dead:4000 = REL_Y:750:-1
+
+
+#trigger^invert = rel-repeat:REL_WHEEL:1:50
+
+
+
+
+
+[ui-buttonmap]
+a = KEY_SPACE                # A jumps up.
+b = KEY_LEFTSHIFT            # B is shift.
+x = KEY_Q                    # X drops an item.
+y = KEY_E                    # Y opens up the inventory.
+lt = BTN_RIGHT
+rt = BTN_LEFT
+
+rb = rel:REL_WHEEL:-1:500    # right button scrolls right.
+lb = rel:REL_WHEEL:1:500     # left button scrolls left.
+
+# tl = KEY_BACKSPACE
+# tr = KEY_SPACE
+
+[ui-buttonmap]
+# dl = KEY_LEFT
+# dr = KEY_RIGHT
+du = rel:REL_WHEEL:-1:500
+dd = rel:REL_WHEEL:1:500
+
+# lt = KEY_VOLUMEDOWN
+# rt = KEY_VOLUMEUP
+
+[ui-buttonmap]
+start = KEY_ESC
+back  = KEY_ESC
+# guide = KEY_ESC
+
+# EOF #

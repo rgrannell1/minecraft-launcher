@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Minecraft
+Comment=Minecraft Launcher for Linux
+Icon=~/.minecraft-launcher/icon.png
+Exec=~/.minecraft-launcher/execute.sh
+NoDisplay=false
+Categories=Game
+StartupNotify=true
+Terminal=false
